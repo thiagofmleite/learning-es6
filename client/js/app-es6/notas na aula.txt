@@ -1,0 +1,48 @@
+// formato da data -> '2016-11-12'
+        //let data = new Date(this._inputData.value.split('-'));
+
+        // Quando há conversão de string para Date, o separador (join) é uma vírgula
+        // Criou-se uma regex para substituir - por , para burlar isto
+        // let data = new Date(this._inputData.value.replace(/-/g, ','));
+        
+        
+        // let data = new Date(...
+        //     this._inputData.value
+        //         .split('-')
+        //         .map(function(item, indice){
+        //             // if(indice == 1){ // segundo elemento do array, porque o primeiro é zero
+        //             //     return item -1;
+        //             // }
+        //             // return item;
+        //             return item - indice % 2;
+        //         })
+        //     );
+        // O CONTEUDO ACIMA SERÁ TRANSFORMADO EM UMA ARROW FUNCTION
+
+        // let negociacao = this._criaNegociacao();
+        // // Adicionar a negociação à uma lista
+        // this._listaNegociacoes.adiciona(negociacao);
+        // this._limpaForumlario();
+        // this._mensagem.texto = "Negociação adicionada com sucesso!";
+
+        <script>
+    // let lista = new Proxy(new ListaNegociacoes(),{
+    //     // target: objeto original
+    //     // prop: propriedade
+    //     // receiver: Proxy
+    //     get(target, prop, receiver){
+    //         if(['adiciona', 'esvazia'].includes(prop) && typeof(target[prop] == typeof(Function))){
+    //             return function(){
+    //                 console.log(`interceptando ${prop}`);
+    //                 // arguments: variavel implícita que representa os parâmetros da função
+    //                 Reflect.apply(target[prop], target, arguments);
+    //             }
+    //         }
+
+    //         return Reflect.get(target, prop, receiver);
+    //     }
+    // });
+
+    // lista.adiciona(new Negociacao(new Date(), 1, 100));
+
+</script>
